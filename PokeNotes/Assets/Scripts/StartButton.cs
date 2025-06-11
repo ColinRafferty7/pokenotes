@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StartButton : MonoBehaviour
 {
     public void StartButtonClick()
     {
-        Debug.Log("Button");
+        SceneManager.LoadScene("Notes");
     }
 }
